@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Inconsolata&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Hanken+Grotesk:ital,wght@1,300&family=Heebo&family=Inconsolata&family=Open+Sans:ital,wght@1,300&family=Roboto+Condensed&display=swap');
 
 body{
     background-color: var(--secodary-color);
@@ -126,6 +126,11 @@ a:hover{
     border-bottom-left-radius: 2rem;
 }
 
-
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
 
