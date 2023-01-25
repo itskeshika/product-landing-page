@@ -7,31 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just Nutritive Products</title>
     <link href="styles.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <!-- slideshow container -->
-    <div class="slideshow">
-        <!-- Full width images -->
-        <div class="myslides">
-            <img src="pics/banner 1.jpg" style="width:100%">
-            <img src="pics/banner 2.jpg" alt="product details" style="width:100%">
-            <img src="pics/banner 3.jpg" alt="product details" style="width:100%">
+    
+    <header id="header">
+        <div  id="header-img"  class="logo">
+            <img src="pics/logo.png" alt="company logo" width="255px" height="75px">
+        </div>
+        <nav id="nav-bar" class="navigation">
+             <ul class="nav-pills list-non-bullet">
+                <li><a href="index.html"> Home</a></li>
+                <li>Products</li>
+                <li>Reach out</li>
+                <li>Contact details</li>
+             </ul>
+        </nav>
+    </header>
+
+    <div class="first-words">
+        <h4>YOUR BEAUTY. MORE CONVENIENT THAN EVER.</h4>
+        <h3> Shop now, pay later</h3>
+        <h3>Always interest free</h3>
+    </div>
+
+    <div id="banner-1">
+        <img src="pics/banner 1.jpg" alt="product details" width="100%" height="325px">
+    </div>
+
+    <div id="video">
+        <iframe width="665px" height="415px"  src="https://www.youtube.com/embed/Ckt8gdZVkDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+       <div class="discount">
+        <img src="pics/product 3.jpg" alt="halloween products" widht="665px" height="415px">
+       </div>
+    </div>
+    <div id="banner-3">
+        <img src="pics/banner 2.jpg" alt="product info" width="100%" height="325px">
+    </div>
+
+    <div class="product-2">
+        <img src="pics/product 4.jpg" width="365px" height="415px" alt="product-details" loading="lazy">
+
+        <div class="product-details2">
+            <h4>HAIR LOSS</h4>
+            <p>Therapy Shampoo</p>
+            <P class="shampoo-description">Nourishes your Damaged hair and condition them.</P>
         </div>
 
-        <!-- Next and Previous Buttons -->
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <img src="pics/product 5.jpg" alt="product details" width="365px" height="415px" loading="lazy">
     </div>
-    <br>
 
-    <!-- The dots -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+    <div id="banner-4">
+        <img src="pics/banner 3.jpg" alt="product details" width="100%" height="325px" >
     </div>
+
+    <div id="reachout">
+        <p>
+            WE WILL REACH OUT TO YOU,DROP YOUR DETAILS BELOW:
+        </p>
+    </div>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <fieldset class="forum">
+            <label for="name">Enter Your Name:
+                <input type="text" name="name" id="name" required>
+            </label>
+
+            <label for="age">Enter your age:
+                <input type="number" name="age" id="age" required>
+            </label>
+
+            <label for="email">Enter your e-mail adress:
+                <input type="email" name="email" id="email" required placeholder="ex:joe@gmail.com">
+            </label>
+            <input type="submit" value="subscribe">
+        </fieldset>
+    </form>
+
+    <footer id="footer">
+        <div class="last">
+            <address>
+                Coded by <a href="mailto:itskeshika@gmail.com">Keshika Thapa</a>.<br>
+                Visit us at:<br>
+                <a href="https://justnutritive.com/">  justnutritive.com </a> <br>
+                Bonyonton Beach, Fl 33456<br>
+                USA<br>
+                Call us at 1-800-936-2119
+            </address>
+
+            <div>
+                <h3>Connect to us in:</h3>
+                <ul class="social-links list-non-bullet">
+                    <li><a class="link" href="https://www.facebook.com/Justnutritiveproducts">facebook </a></li>
+                    <li><a class="link" href="https://www.instagram.com/justnutritiveproducts/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </footer>
+
 </body>
 
 </html>
